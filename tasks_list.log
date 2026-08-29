@@ -1,0 +1,206 @@
+Starting a Gradle Daemon, 2 busy and 1 incompatible Daemons could not be reused, use --status for details
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'ComposeHotReloadDemo'
+------------------------------------------------------------
+
+Build tasks
+-----------
+composeApp:allMetadataJar - Assembles a jar archive containing the metadata for all Kotlin source sets.
+composeApp:assemble - Assembles the outputs of this project.
+composeApp:build - Assembles and tests this project.
+composeApp:buildDependents - Assembles and tests this project and all projects that depend on it.
+composeApp:buildKotlinToolingMetadata - Build metadata json file containing information about the used Kotlin tooling
+composeApp:buildNeeded - Assembles and tests this project and all projects it depends on.
+composeApp:clean - Deletes the build directory.
+composeApp:cleanAllTests - Deletes all the test results.
+composeApp:desktopDevClasses - Assembles outputs for compilation 'dev' of target 'desktop'
+composeApp:desktopJar - Assembles an archive containing the main classes.
+composeApp:desktopMainClasses - Assembles outputs for compilation 'main' of target 'desktop'
+composeApp:desktopSourcesJar - Assembles a jar archive containing the sources of target 'desktop'.
+composeApp:desktopTestClasses - Assembles outputs for compilation 'test' of target 'desktop'
+composeApp:metadataMainClasses - Assembles outputs for compilation 'main' of target 'metadata'
+composeApp:metadataSourcesJar - Assembles a jar archive containing the sources of target 'metadata'.
+composeApp:sourcesJar - Assembles a jar archive containing the sources of target 'kotlin'.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+updateDaemonJvm - Generates or updates the Gradle Daemon JVM criteria.
+wrapper - Generates Gradle wrapper files.
+
+Compose tasks
+-------------
+composeApp:composeCompatibilityBrowserDistribution - This task combines both js and wasm distributions into one so that wasm application fallback to js target if modern wasm feature are not supported
+
+Compose desktop tasks
+---------------------
+composeApp:checkRuntime
+composeApp:createDistributable
+composeApp:createReleaseDistributable
+composeApp:createRuntimeImage
+composeApp:flattenJars
+composeApp:flattenReleaseJars
+composeApp:notarizeDmg
+composeApp:notarizeReleaseDmg
+composeApp:package
+composeApp:packageDeb
+composeApp:packageDistributionForCurrentOS
+composeApp:packageDmg
+composeApp:packageMsi
+composeApp:packageReleaseDeb
+composeApp:packageReleaseDistributionForCurrentOS
+composeApp:packageReleaseDmg
+composeApp:packageReleaseMsi
+composeApp:packageReleaseUberJarForCurrentOS
+composeApp:packageUberJarForCurrentOS
+composeApp:prepareAppResources
+composeApp:proguardReleaseJars
+composeApp:run
+composeApp:runDistributable
+composeApp:runRelease
+composeApp:runReleaseDistributable
+composeApp:suggestRuntimeModules
+composeApp:unpackDefaultComposeDesktopJvmApplicationResources
+
+Compose Hot Reload: Other tasks
+-------------------------------
+composeApp:hotDevDesktopArgfile - Creates an argument file for the 'hotDevDesktop' task
+composeApp:hotMcpServerDesktop - Start MCP server for AI agent integration with the running Compose application
+composeApp:hotReloadDesktopDev - Hot Reloads code associated with the 'compilation 'dev' (target desktop (jvm))'
+composeApp:hotReloadDesktopMain - Hot Reloads code associated with the 'compilation 'main' (target desktop (jvm))'
+composeApp:hotReloadDesktopTest - Hot Reloads code associated with the 'compilation 'test' (target desktop (jvm))'
+composeApp:hotRunDesktopArgfile - Creates an argument file for the 'hotRunDesktop' task
+composeApp:hotSnapshotDesktopDev - Takes a snapshot of the classpath of the 'dev' compilation
+composeApp:hotSnapshotDesktopMain - Takes a snapshot of the classpath of the 'main' compilation
+composeApp:hotSnapshotDesktopTest - Takes a snapshot of the classpath of the 'test' compilation
+composeApp:reload - Hot Reloads code for all running applications
+
+Compose Hot Reload: Run tasks
+-----------------------------
+composeApp:desktopRunHot - Deprecated: Use 'hotRunDesktop' instead
+composeApp:hotDevDesktop - Compose Application Dev Run (Hot Reload enabled) | --className=... --funName=...
+composeApp:hotDevDesktopAsync - Compose Application Dev Run (Hot Reload enabled) | --className=... --funName=... [Async]
+composeApp:hotRunDesktop - Compose Application Run (Hot Reload enabled) | --mainClass=...
+composeApp:hotRunDesktopAsync - Compose Application Run (Hot Reload enabled) | --mainClass=... [Async]
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'ComposeHotReloadDemo'.
+composeApp:buildEnvironment - Displays all buildscript dependencies declared in project ':composeApp'.
+dependencies - Displays all dependencies declared in root project 'ComposeHotReloadDemo'.
+composeApp:dependencies - Displays all dependencies declared in project ':composeApp'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'ComposeHotReloadDemo'.
+composeApp:dependencyInsight - Displays the insight into a specific dependency in project ':composeApp'.
+help - Displays a help message.
+composeApp:help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+composeApp:javaToolchains - Displays the detected java toolchains.
+composeApp:kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+outgoingVariants - Displays the outgoing variants of root project 'ComposeHotReloadDemo'.
+composeApp:outgoingVariants - Displays the outgoing variants of project ':composeApp'.
+projects - Displays the sub-projects of root project 'ComposeHotReloadDemo'.
+composeApp:projects - Displays the sub-projects of project ':composeApp'.
+properties - Displays the properties of root project 'ComposeHotReloadDemo'.
+composeApp:properties - Displays the properties of project ':composeApp'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'ComposeHotReloadDemo'.
+composeApp:resolvableConfigurations - Displays the configurations that can be resolved in project ':composeApp'.
+tasks - Displays the tasks runnable from root project 'ComposeHotReloadDemo' (some of the displayed tasks may belong to subprojects).
+composeApp:tasks - Displays the tasks runnable from project ':composeApp'.
+
+Ide tasks
+---------
+composeApp:resolveIdeDependencies - Debugging/Diagnosing task that will resolve dependencies for the IDE
+
+Run tasks
+---------
+composeApp:desktopRun - Jvm Run task for target 'desktop' and compilation 'main'. This task can act as carrier for the IDE to execute jvm based code
+
+Signing tasks
+-------------
+composeApp:generatePgpKeys - Generates a new PGP keypair.
+
+Usage: 
+gradlew generatePgpKeys --name "Jane Doe <janedoe@example.com>" --password YOUR_PASSWORD
+composeApp:uploadPublicPgpKey - Uploads the public PGP key to a keyserver
+
+Validation tasks
+----------------
+composeApp:checkSigningConfiguration - Checks that a signing configuration is set up correctly.
+
+Verification tasks
+------------------
+composeApp:allTests - Runs the tests for all targets and create aggregated report
+composeApp:check - Runs all checks.
+composeApp:checkKotlinGradlePluginConfigurationErrors - Checks that Kotlin Gradle Plugin hasn't reported project configuration errors, failing otherwise. This task always runs before compileKotlin* or similar tasks.
+composeApp:desktopTest - Runs the tests of the test test run.
+
+Other tasks
+-----------
+composeApp:assembleDesktopDevResources
+composeApp:assembleDesktopMainResources
+composeApp:assembleDesktopTestResources
+composeApp:checkDesktopDevComposeLibrariesCompatibility
+composeApp:checkDesktopMainComposeLibrariesCompatibility
+composeApp:checkDesktopTestComposeLibrariesCompatibility
+composeApp:checkLegacyAbi
+composeApp:compileDesktopDevJava - Compiles desktop dev Java source.
+composeApp:compileDesktopMainJava - Compiles desktop main Java source.
+composeApp:compileDesktopTestJava - Compiles desktop test Java source.
+composeApp:compileDevKotlinDesktop - Compiles the compilation 'dev' in target 'desktop'.
+composeApp:compileKotlinDesktop - Compiles the compilation 'main' in target 'desktop'.
+composeApp:compileKotlinMetadata - Compiles the kotlin sources in compilation 'main' in target 'metadata' to Metadata.
+composeApp:compileTestKotlinDesktop - Compiles the compilation 'test' in target 'desktop'.
+components - Displays the components produced by root project 'ComposeHotReloadDemo'. [deprecated]
+composeApp:components - Displays the components produced by project ':composeApp'. [deprecated]
+composeApp:configureDesktopPreviewDesktop
+composeApp:convertXmlValueResourcesForCommonMain
+composeApp:convertXmlValueResourcesForCommonTest
+composeApp:convertXmlValueResourcesForDesktopDev
+composeApp:convertXmlValueResourcesForDesktopMain
+composeApp:convertXmlValueResourcesForDesktopTest
+composeApp:copyNonXmlValueResourcesForCommonMain
+composeApp:copyNonXmlValueResourcesForCommonTest
+composeApp:copyNonXmlValueResourcesForDesktopDev
+composeApp:copyNonXmlValueResourcesForDesktopMain
+composeApp:copyNonXmlValueResourcesForDesktopTest
+dependentComponents - Displays the dependent components of components in root project 'ComposeHotReloadDemo'. [deprecated]
+composeApp:dependentComponents - Displays the dependent components of components in project ':composeApp'. [deprecated]
+composeApp:desktopDevProcessResources - Processes file collection.
+composeApp:desktopProcessResources - Processes file collection.
+composeApp:desktopTestProcessResources - Processes file collection.
+composeApp:dumpLegacyAbi
+composeApp:exportCommonSourceSetsMetadataLocationsForMetadataApiElements
+composeApp:exportRootPublicationCoordinatesForMetadataApiElements
+composeApp:exportTargetPublicationCoordinatesForDesktopApiElements
+composeApp:exportTargetPublicationCoordinatesForDesktopRuntimeElements
+composeApp:generateActualResourceCollectorsForDesktopMain
+composeApp:generateComposeResClass
+composeApp:generateExpectResourceCollectorsForCommonMain
+composeApp:generateProjectStructureMetadata - Generates serialized project structure metadata of the current project (for tooling)
+composeApp:generateResourceAccessorsForCommonMain
+composeApp:generateResourceAccessorsForCommonTest
+composeApp:generateResourceAccessorsForDesktopDev
+composeApp:generateResourceAccessorsForDesktopMain
+composeApp:generateResourceAccessorsForDesktopTest
+composeApp:kmpPartiallyResolvedDependenciesChecker
+composeApp:metadataProcessResources - Processes file collection.
+model - Displays the configuration model of root project 'ComposeHotReloadDemo'. [deprecated]
+composeApp:model - Displays the configuration model of project ':composeApp'. [deprecated]
+composeApp:prepareComposeResourcesTaskForCommonMain
+composeApp:prepareComposeResourcesTaskForCommonTest
+composeApp:prepareComposeResourcesTaskForDesktopDev
+composeApp:prepareComposeResourcesTaskForDesktopMain
+composeApp:prepareComposeResourcesTaskForDesktopTest
+prepareKotlinBuildScriptModel
+composeApp:prepareKotlinIdeaImport - Umbrella for all tasks required to run before IDEA/Gradle import
+composeApp:processDesktopDevResources - Processes desktop dev resources.
+composeApp:processDesktopMainResources - Processes desktop main resources.
+composeApp:processDesktopTestResources - Processes desktop test resources.
+composeApp:setupLldbScript - Generate lldbinit file with imported konan_lldb.py script
+composeApp:updateLegacyAbi
+
+BUILD SUCCESSFUL in 32s
+1 actionable task: 1 executed

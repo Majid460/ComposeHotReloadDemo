@@ -1,0 +1,118 @@
+{
+  "id": 1,
+  "bounds": {
+    "x": 0,
+    "y": 0,
+    "width": 840,
+    "height": 1064
+  },
+  "children": [
+    {
+      "id": 7,
+      "role": "Button",
+      "text": "Counter",
+      "testTag": "nav_counter",
+      "focused": false,
+      "actions": [
+        "onClick"
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 40,
+        "width": 207,
+        "height": 80
+      }
+    },
+    {
+      "id": 10,
+      "role": "Button",
+      "text": "Tasks",
+      "testTag": "nav_tasks",
+      "focused": false,
+      "actions": [
+        "onClick"
+      ],
+      "bounds": {
+        "x": 255,
+        "y": 40,
+        "width": 174,
+        "height": 80
+      }
+    },
+    {
+      "id": 23,
+      "editableText": "Walk the dog",
+      "testTag": "task_input",
+      "focused": false,
+      "actions": [
+        "onClick",
+        "onLongClick"
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 176,
+        "width": 560,
+        "height": 112
+      }
+    },
+    {
+      "id": 31,
+      "role": "Button",
+      "text": "Add",
+      "testTag": "task_add_button",
+      "focused": false,
+      "actions": [
+        "onClick"
+      ],
+      "bounds": {
+        "x": 608,
+        "y": 184,
+        "width": 151,
+        "height": 80
+      }
+    },
+    {
+      "id": 34,
+      "testTag": "task_list_container",
+      "bounds": {
+        "x": 32,
+        "y": 312,
+        "width": 136,
+        "height": 48
+      },
+      "children": [
+        {
+          "id": 35,
+          "text": "Buy milk",
+          "testTag": "task_item_0",
+          "bounds": {
+            "x": 32,
+            "y": 312,
+            "width": 136,
+            "height": 48
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 840,
+        "height": 1064
+      },
+      "children": [
+        {
+          "id": 19,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 840,
+            "height": 1064
+          }
+        }
+      ]
+    }
+  ]
+}

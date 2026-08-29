@@ -1,0 +1,43 @@
+> Task :composeApp:cleanDesktopMainHotClasses
+> Task :composeApp:checkDesktopMainComposeLibrariesCompatibility
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForCommonMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForDesktopMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForDesktopMain NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForDesktopMain UP-TO-DATE
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :composeApp:compileKotlinDesktop UP-TO-DATE
+> Task :composeApp:compileDesktopMainJava NO-SOURCE
+> Task :composeApp:assembleDesktopMainResources UP-TO-DATE
+> Task :composeApp:desktopProcessResources UP-TO-DATE
+> Task :composeApp:processDesktopMainResources SKIPPED
+> Task :composeApp:desktopMainClasses UP-TO-DATE
+> Task :composeApp:hotSnapshotDesktopMain
+> Task :composeApp:syncDesktopMainStartupClasses
+> Task :composeApp:syncDesktopMainStartupLibs
+> Task :composeApp:hotRunDesktopArgfile
+
+> Task :composeApp:hotRunDesktop
+  ________________________________________________________________________________________________
+| 
+| Compose Hot Reload (1.2.0)
+| Running 'MainKt'
+| JetBrains Runtime: /Users/macbookpro/.gradle/jdks/jetbrains_s_r_o_-25-aarch64-os_x.2/jbrsdk_jcef-25.0.4.1-osx-aarch64-b583.48/Contents/Home/bin/java
+| ________________________________________________________________________________________________
+| Explicit Reload Mode:
+| Use `./gradlew reload` to hot reload the application
+| Use `./gradlew :composeApp:hotReloadDesktopMain` to hot reload the application (alternative)
+| Use `./gradlew :composeApp:hotRunDesktop --auto` to automatically reload the application on source changes
+| ________________________________________________________________________________________________
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jetbrains.skiko.LibraryLoader in an unnamed module (file:/Users/macbookpro/.gradle/caches/modules-2/files-2.1/org.jetbrains.skiko/skiko-awt/0.150.1/e03fd8140c0e331c3c7018b00a9710ec98d78fc1/skiko-awt-0.150.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
